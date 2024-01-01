@@ -1,0 +1,118 @@
+body {
+  background-color: #3b4664;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.display-container {
+  text-align: right;
+  margin-top: 20px;
+  margin-left: 25%;
+  width: 800px;
+}
+
+.box {
+  width: 535px;
+  height: 142.73px;
+  top: 194px;
+  left: 466px;
+  border-radius: 12px;
+  background: #181f32;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  color: white;
+  padding: 20px;
+  font-family: "Segoe UI";
+}
+
+.button-container {
+  position: relative;
+  width: 536px;
+  height: 510px;
+  top: 30px;
+  gap: 10px;
+  border-radius: 12px;
+  left: 25%;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: #252d44;
+  padding: 20px;
+}
+
+.group {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  justify-content: center; 
+  align-items: center; 
+  height: 100px;
+}
+
+.number-box {
+  width: 100px;
+  height: 60px;
+  border-radius: 12px;
+  background: #eae3db;
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.number {
+  width: 22px;
+  height: 22.29px;
+  top: 15px;
+  left: 33px;
+  position: absolute;
+  font-family: "Inter";
+  font-weight: bolder;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3b4664;
+}
+
+.last-group {
+  display: flex;
+  justify-content: center; 
+  gap: 30px;
+}
+
+.rectangle-box {
+  /* width: 222.44px; */
+  top: 10px;
+  width: 250px;
+  height: 60px;
+  border-radius: 11.52px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.reset-box {
+  background-color: #647299;
+}
+
+.equal-box {
+  background-color: #d13f30;
+}
+
+.text {
+  font-family: "Inter";
+
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.del-box {
+  color: white;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  left: 25px;
+  font-weight: 800;
+}
