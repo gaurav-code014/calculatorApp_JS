@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } catch (error) {
       displayValue = "Error";
       updateDisplay();
-      isEqualClicked = false;
+      isEqualClicked = true;
     }
   }
 
